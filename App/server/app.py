@@ -6,15 +6,15 @@ import secrets
 import mimetypes
 from aiohttp import web
 import sys
-sys.path.append('/plugins')
-import youtube_dl_echo
+k = sys.path.append('/plugins')
+#import youtube_dl_echo
 
 
 routes = web.RouteTableDef()
 
 @routes.get("/", allow_head=True)
 async def root_route_handler(request):
-    return web.json_response({"server_status": sys.path,
+    return web.json_response({"server_status": k,
                               "uptime": "bshs",
                               "telegram_bot": "ndrj",
                               "version": 'bdnddn'})
