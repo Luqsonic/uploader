@@ -26,7 +26,7 @@ bot = Client(
     api_hash="8c6390da22f0b6a34ee95ab5bf4ddd9f",
     bot_token="1412992512:AAHb8GUexB17g_v9O990SLRWM4OPf64QhnU",
     sleep_threshold="60",
-    workers="3"
+    workers=3
 )
 
 @routes.get("/", allow_head=True)
