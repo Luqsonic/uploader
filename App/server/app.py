@@ -7,7 +7,7 @@ import mimetypes
 from aiohttp import web
 import sys
 sys.path.insert(1,'/app/plugins')
-import youtube_dl_echo
+import youtube_dl_echo.echo
 
 
 routes = web.RouteTableDef()
