@@ -6,8 +6,9 @@ import secrets
 import mimetypes
 from aiohttp import web
 import sys
-#sys.path.append('/app/plugins')
-#import youtu
+sys.path.append('/plugins')
+import youtube_dl_echo
+
 
 routes = web.RouteTableDef()
 
