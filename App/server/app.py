@@ -29,7 +29,7 @@ bot = Client(
     sleep_threshold="60",
     workers=3
 )
-
+bot.start()
 @routes.get("/", allow_head=True)
 async def root_route_handler(request):
     return web.json_response({"server_status": "running",
