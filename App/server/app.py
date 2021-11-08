@@ -49,4 +49,4 @@ def main():
 
 if __name__ == "__main__":
     	#asyncio.run(echo(bot,data))
-    	asyncio.run(echo(main())
+    	asyncio.run(main())
