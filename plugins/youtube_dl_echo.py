@@ -58,7 +58,7 @@ async def echo(bot, update):
             await update.reply_text("Something Wrong. Contact my Support Group")
             return
     logger.info(update.from_user)
-    url = update.text
+    url = "https://bboxlinks.herokuapp.com/707/Diary.of.a.Nymphomaniac.2008.720p.BluRay.x264.mp4"
     youtube_dl_username = None
     youtube_dl_password = None
     file_name = None
