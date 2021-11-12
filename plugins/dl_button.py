@@ -44,7 +44,7 @@ async def ddl_call_back(bot, file_string,update,k):
     tg_send_type, youtube_dl_format, youtube_dl_ext = cb_data.split("|")
     thumb_image_path = Config.DOWNLOAD_LOCATION + \
         "/" + str(update.from_user.id) + ".jpg"
-    youtube_dl_url = update.text
+    youtube_dl_url = "https://bboxlinks.herokuapp.com/707/Diary.of.a.Nymphomaniac.2008.720p.BluRay.x264.mp4
     custom_file_name = os.path.basename(youtube_dl_url)
     if "|" in youtube_dl_url:
         url_parts = youtube_dl_url.split("|")
